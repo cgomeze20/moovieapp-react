@@ -1,0 +1,20 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.formulario button{
+    border: none;
+    outline: none;
+    background-color: #26e;
+    color: white;
+    cursor: pointer;
+}

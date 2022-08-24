@@ -1,0 +1,22 @@
+.spinner{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 30px;
+    
+}
+
+.spinning{
+    animation: giro 1s linear infinite;
+}
+
+@keyframes giro{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+
+}
+
